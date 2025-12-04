@@ -1,1 +1,2 @@
-This projects flips a coin and graphs the results. Each flip will result in a +1 or -1 depending on the flip. 
+A Python simulation that models flipping coins with customisable probabilities and  side values.
+The program visualises how different types of coins affect a running balance over many flips.
