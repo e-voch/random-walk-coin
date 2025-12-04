@@ -6,7 +6,7 @@ def run_game(coin: Coin, starting_balance: int = 50, n_flips: int = 200):
     balances = [balance]
 
     for _ in range(n_flips):
-        balance += coin.flip()   # <-- changed: use the value directly
+        balance += coin.flip()   
         balances.append(balance)
 
     return balances
